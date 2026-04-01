@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "title": "Website Laundry",
+        "category": "Web",
+        "description": "Website Laundry Online adalah aplikasi manajemen layanan binatu berbasis web. Platform ini didesain untuk memfasilitasi pemesanan, pelacakan status cucian, serta pencatatan transaksi secara terintegrasi. Dilengkapi dengan dashboard intuitif untuk pengguna dan administrator dalam mengelola operasional secara efisien dan cepat.\n\n🛠️ Teknologi: Bootstrap, PHP, dan MySQL.",
+        "preview": [
+            "images/Web/WebLaundry/laundry.png",
+            "images/Web/WebLaundry/laundry2.png",
+            "images/Web/WebLaundry/laundry3.png",
+            "images/Web/WebLaundry/laundry4.png",
+            "images/Web/WebLaundry/laundry5.png",
+            "images/Web/WebLaundry/laundry6.png",
+            "images/Web/WebLaundry/laundry7.png",
+            "images/Web/WebLaundry/laundry8.png",
+            "images/Web/WebLaundry/laundry9.png"
+        ],
+        "demoUrl": "#",
+        "githubUrl": "#"
+    },
+    {
+        "id": 2,
+        "title": "Website TOEFL",
+        "category": "Web",
+        "description": "Platform simulasi tes TOEFL online komprehensif yang menawarkan pengalaman pengujian interaktif bagi setiap murid. Aplikasi ini hadir secara lengkap dengan sistem penilaian otomatis terakurasi, riwayat hasil evaluasi, pencetakan sertifikat digital yang instan, serta dashboard monitoring pengguna.\n\n🛠️ Teknologi: Vanilla JavaScript, HTML5, CSS3.",
+        "preview": [
+            "images/Web/WebToefl/toefl.png",
+            "images/Web/WebToefl/toefl1.png",
+            "images/Web/WebToefl/toefl2.png",
+            "images/Web/WebToefl/toefl3.png",
+            "images/Web/WebToefl/toefl4.png",
+            "images/Web/WebToefl/toefl5.png"
+        ],
+        "demoUrl": "https://www.toel.my.id/",
+        "githubUrl": "#"
+    },
+    {
+        "id": 3,
+        "title": "Sistem Pendukung Keputusan Pemilihan Bibit Padi",
+        "category": "Web",
+        "description": "Sistem Pendukung Keputusan (SPK) cerdas berorientasi agrikultur yang dirancang khusus untuk memandu petani dalam proses pemilihan varietas bibit padi optimal. Sistem ini memproses berbagai variabel menggunakan metode Simple Additive Weighting (SAW) guna mengeksekusi analisis rekomendasi berbasis data objektif.",
+        "preview": [
+            "images/Web/WebSPK/sistem1.png",
+            "images/Web/WebSPK/sistem2.png",
+            "images/Web/WebSPK/sistem3.png",
+            "images/Web/WebSPK/sistem4.png"
+        ],
+        "demoUrl": "#",
+        "githubUrl": "#"
+    },
+    {
+        "id": 4,
+        "title": "Koleksi Desain",
+        "category": "Design",
+        "description": "Kompilasi karya desain grafis eksklusif untuk berbagai aset komunikasi visual fungsional. Proyek ini mencakup perancangan estetika untuk media publikasi seperti kartu ucapan, pamflet kampanye acara, hingga ID Card institusional yang merepresentasikan citra modern dan profesional.",
+        "preview": [
+            "images/Design/Ucapan.png",
+            "images/Design/Ucapan1.png",
+            "images/Design/Ucapan2.png",
+            "images/Design/Pamflet.png",
+            "images/Design/Pamflet1.png",
+            "images/Design/Pamflet2.png",
+            "images/Design/Pamflet3.png",
+            "images/Design/IdCard.png"
+        ],
+        "demoUrl": "#",
+        "githubUrl": "#"
+    },
+    {
+        "id": 5,
+        "title": "Desain Logo Bisnis",
+        "category": "Design",
+        "description": "Deretan portofolio rancangan identitas visual dan logogram untuk beragam kebutuhan entitas bisnis. Setiap logo diformulasikan secara kreatif untuk memberikan branding yang kuat, dengan mengedepankan prinsip desain minimalis, keterbacaan, dan nilai pembeda bagi setiap brand klien.",
+        "preview": [
+            "images/Design/logo1.png",
+            "images/Design/logo2.png",
+            "images/Design/logo3.png",
+            "images/Design/logo4.png"
+        ],
+        "demoUrl": "#",
+        "githubUrl": "#"
+    },
+    {
+        "id": 6,
+        "title": "Desain Carousel Content",
+        "category": "Design",
+        "description": "Serangkaian desain visual mikro-konten dengan tata letak carousel interaktif untuk kebutuhan pemasaran digital Farkatech. Desain ini bertujuan membantu audiens memahami informasi edukatif yang kompleks menjadi bentuk visual terstruktur yang mudah dipahami, menarik, dan ramah konversi.",
+        "preview": [
+            "images/Design/Carousel/carousel1.png",
+            "images/Design/Carousel/carousel2.png",
+            "images/Design/Carousel/carousel3.png",
+            "images/Design/Carousel/carousel4.png",
+            "images/Design/Carousel/carousel5.png",
+            "images/Design/Carousel/carousel6.png"
+        ],
+        "demoUrl": "#",
+        "githubUrl": "#"
+    }
+]
