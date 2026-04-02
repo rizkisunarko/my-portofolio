@@ -24,12 +24,12 @@
         "category": "Web",
         "description": "Platform simulasi tes TOEFL online komprehensif yang menawarkan pengalaman pengujian interaktif bagi setiap murid. Aplikasi ini hadir secara lengkap dengan sistem penilaian otomatis terakurasi, riwayat hasil evaluasi, pencetakan sertifikat digital yang instan, serta dashboard monitoring pengguna.\n\n🛠️ Teknologi: Vanilla JavaScript, HTML5, CSS3.",
         "preview": [
-            "images/Web/WebToefl/toefl.png",
-            "images/Web/WebToefl/toefl1.png",
-            "images/Web/WebToefl/toefl2.png",
-            "images/Web/WebToefl/toefl3.png",
-            "images/Web/WebToefl/toefl4.png",
-            "images/Web/WebToefl/toefl5.png"
+            "images/Web/WebTOEFL/toefl.png",
+            "images/Web/WebTOEFL/toefl1.png",
+            "images/Web/WebTOEFL/toefl2.png",
+            "images/Web/WebTOEFL/toefl3.png",
+            "images/Web/WebTOEFL/toefl4.png",
+            "images/Web/WebTOEFL/toefl5.png"
         ],
         "demoUrl": "https://www.toel.my.id/",
         "githubUrl": "#"
@@ -72,10 +72,10 @@
         "category": "Design",
         "description": "Deretan portofolio rancangan identitas visual dan logogram untuk beragam kebutuhan entitas bisnis. Setiap logo diformulasikan secara kreatif untuk memberikan branding yang kuat, dengan mengedepankan prinsip desain minimalis, keterbacaan, dan nilai pembeda bagi setiap brand klien.",
         "preview": [
-            "images/Design/logo1.png",
-            "images/Design/logo2.png",
-            "images/Design/logo3.png",
-            "images/Design/logo4.png"
+            "images/Design/Logo1.png",
+            "images/Design/Logo2.png",
+            "images/Design/Logo3.png",
+            "images/Design/Logo4.png"
         ],
         "demoUrl": "#",
         "githubUrl": "#"
@@ -86,12 +86,12 @@
         "category": "Design",
         "description": "Serangkaian desain visual mikro-konten dengan tata letak carousel interaktif untuk kebutuhan pemasaran digital Farkatech. Desain ini bertujuan membantu audiens memahami informasi edukatif yang kompleks menjadi bentuk visual terstruktur yang mudah dipahami, menarik, dan ramah konversi.",
         "preview": [
-            "images/Design/Carousel/carousel1.png",
-            "images/Design/Carousel/carousel2.png",
-            "images/Design/Carousel/carousel3.png",
-            "images/Design/Carousel/carousel4.png",
-            "images/Design/Carousel/carousel5.png",
-            "images/Design/Carousel/carousel6.png"
+            "images/Design/Carousel/Carousel1.png",
+            "images/Design/Carousel/Carousel2.png",
+            "images/Design/Carousel/Carousel3.png",
+            "images/Design/Carousel/Carousel4.png",
+            "images/Design/Carousel/Carousel5.png",
+            "images/Design/Carousel/Carousel6.png"
         ],
         "demoUrl": "#",
         "githubUrl": "#"
