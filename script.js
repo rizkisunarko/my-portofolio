@@ -153,7 +153,7 @@ function renderProjects(projects) {
             </div>
             <div class="project-info">
                 <h3>${project.title}</h3>
-                <p>${project.description}</p>
+                <p style="white-space: pre-line;">${project.description}</p>
                 ${project.category === 'Web' || (project.demoUrl && project.demoUrl !== '#') || (project.githubUrl && project.githubUrl !== '#') ? `
                 <div class="project-links">
                     <a href="${project.demoUrl && project.demoUrl !== '#' ? project.demoUrl : '#'}" target="${project.demoUrl && project.demoUrl !== '#' ? '_blank' : '_self'}" class="link-btn demo-btn" ${!project.demoUrl || project.demoUrl === '#' ? 'onclick="alert(\\\'Link Demo belum tersedia / belum di-hosting.\\\'); return false;"' : ''}>

@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Website Laundry",
         "category": "Web",
-        "description": "Website Laundry Online adalah aplikasi manajemen layanan binatu berbasis web. Platform ini didesain untuk memfasilitasi pemesanan, pelacakan status cucian, serta pencatatan transaksi secara terintegrasi. Dilengkapi dengan dashboard intuitif untuk pengguna dan administrator dalam mengelola operasional secara efisien dan cepat.\n\n🛠️ Teknologi: Bootstrap, PHP, dan MySQL.",
+        "description": "Website Laundry Online adalah aplikasi manajemen layanan binatu berbasis web. Platform ini didesain untuk memfasilitasi pemesanan, pelacakan status cucian, serta pencatatan transaksi secara terintegrasi. Dilengkapi dengan dashboard intuitif untuk pengguna dan administrator dalam mengelola operasional secara efisien dan cepat.\n\n🔑 Akun Demo:\nAdmin: admin@gmail.com / admin123\nPelanggan: pelanggan@gmail.com / pelanggan123\n\n🛠️ Teknologi: Bootstrap, PHP, dan MySQL.",
         "preview": [
             "images/Web/WebLaundry/laundry.png",
             "images/Web/WebLaundry/laundry2.png",
@@ -38,7 +38,7 @@
         "id": 3,
         "title": "Sistem Pendukung Keputusan Pemilihan Bibit Padi",
         "category": "Web",
-        "description": "Sistem Pendukung Keputusan (SPK) cerdas berorientasi agrikultur yang dirancang khusus untuk memandu petani dalam proses pemilihan varietas bibit padi optimal. Sistem ini memproses berbagai variabel menggunakan metode Simple Additive Weighting (SAW) guna mengeksekusi analisis rekomendasi berbasis data objektif.",
+        "description": "Sistem Pendukung Keputusan (SPK) cerdas berorientasi agrikultur yang dirancang khusus untuk memandu petani dalam proses pemilihan varietas bibit padi optimal. Sistem ini memproses berbagai variabel menggunakan metode Simple Additive Weighting (SAW) guna mengeksekusi analisis rekomendasi berbasis data objektif.\n\n🔑 Akun Demo:\nAdmin: admin / admin123",
         "preview": [
             "images/Web/WebSPK/sistem1.png",
             "images/Web/WebSPK/sistem2.png",
@@ -61,7 +61,8 @@
             "images/Design/Pamflet1.png",
             "images/Design/Pamflet2.png",
             "images/Design/Pamflet3.png",
-            "images/Design/IdCard.png"
+            "images/Design/IdCard.png",
+            "images/Design/Oprec.png"
         ],
         "demoUrl": "#",
         "githubUrl": "#"
