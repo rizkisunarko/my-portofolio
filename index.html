@@ -2,264 +2,262 @@
 <html lang="id">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Pribadi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Pribadi</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <header class="navbar" id="navbar">
-        <div class="container nav-container">
-            <a href="#home" class="logo">Porto<span>Folio</span></a>
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Porto<span>Folio</span></a>
 
-            <nav class="nav-menu">
-                <ul class="nav-list">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
+      <nav class="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
 
-            <div class="nav-actions">
-                <button aria-label="Toggle dark mode" id="theme-btn" class="theme-btn">
-                    <i class="fa-solid fa-moon"></i>
-                </button>
-                <div class="hamburger" id="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </div>
+      <div class="nav-actions">
+        <button aria-label="Toggle dark mode" id="theme-btn" class="theme-btn">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <section id="home" class="hero section">
-            <div class="container hero-container element-reveal">
-                <div class="hero-content">
-                    <div class="badge">HALO, SAYA</div>
-                    <h1 class="name">Rizki Pratama Sunarko</h1>
-                    <h3 class="role">Seorang <br><span class="typing-text">IT Support & Web Developer(Front End)</span>
-                    </h3>
-
-                    <div class="social-links">
-                        <a href="#" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
-                        <a href="#" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#" target="_blank" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-
-                    <div class="hero-buttons">
-                        <a href="#portfolio" class="btn btn-primary">Lihat Project</a>
-                        <a href="#contact" class="btn btn-outline">Kontak Saya <i class="fa-regular fa-envelope"></i></a>
-                    </div>
-                </div>
-                <div class="hero-image bento-card">
-                    <div class="image-wrapper">
-                        <img src="images/profile.jpeg" alt="Foto Profil" id="profile-img">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="about section">
-            <div class="container element-reveal">
-                <div class="section-title">
-                    <h2>About <span>Me</span></h2>
-                    <div class="underline"></div>
-                </div>
-
-                <div class="about-grid bento-card">
-                    <div class="about-text">
-                        <h3>Mengenal Saya Lebih Dekat</h3>
-                        <p>
-                            Saya adalah Mahasiswa Teknik Informatika Universitas Trunojoyo Madura yang berfokus pada
-                            Front-end Web
-                            Development dan IT Support. Memiliki pemahaman fundamental dalam Infrastruktur
-                            Jaringan(Subnetting, IPv4) serta pengalaman praktis dalam troubleshooting hardware dan
-                            software. Terampil dalam membangun antarmuka web yang responsif dan berkomitmen untuk
-                            memberikan solusi teknologi yang efektif di lingkungan kerja profesional
-                        </p>
-
-                        <div class="personal-info">
-                            <div class="info-item">
-                                <i class="fa-solid fa-location-dot"></i>
-                                <div>
-                                    <strong>Domisili:</strong>
-                                    <span>Nganjuk, Indonesia</span>
-                                </div>
-                            </div>
-                            <div class="info-item">
-                                <i class="fa-solid fa-graduation-cap"></i>
-                                <div>
-                                    <strong>Status:</strong>
-                                    <span>Mahasiswa Semester 4</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div style="margin-top: 30px;">
-                            <a href="Purple and White Clean and Professional Resume (1).pdf" download
-                                class="btn btn-primary" target="_blank">Unduh CV <i
-                                    class="fa-solid fa-download"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="about-lanyard-wrapper element-reveal drop-in">
-                        <div class="lanyard-container">
-                            <div class="lanyard-string"></div>
-                            <div class="id-card photo-only">
-                                <img src="images/profile2.jpeg" alt="ID Profile" class="id-photo">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tools / Tech Stack Section -->
-        <section id="tools" class="tools section">
-            <div class="container element-reveal">
-                <div class="section-title">
-                    <h2>Tech <span>Stack</span> & Tools</h2>
-                    <div class="underline"></div>
-                </div>
-
-                <div class="tech-marquee-container bento-card">
-                    <div class="tech-marquee">
-                        <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
-                        <div class="tech-item"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
-                        <div class="tech-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
-                        <div class="tech-item"><i class="fa-solid fa-wind"></i><span>Tailwind</span></div>
-                        <div class="tech-item"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
-                        <div class="tech-item"><i class="fa-solid fa-network-wired"></i><span>Cisco Packet Tracer</span>
-                        </div>
-                        <div class="tech-item"><i class="fa-solid fa-palette"></i><span>Canva</span></div>
-                        <div class="tech-item"><i class="fa-solid fa-video"></i><span>CapCut</span></div>
-                        <!-- Duplikat untuk animasi seamlessly looping -->
-                        <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
-                        <div class="tech-item"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
-                        <div class="tech-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
-                        <div class="tech-item"><i class="fa-solid fa-wind"></i><span>Tailwind</span></div>
-                        <div class="tech-item"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
-                        <div class="tech-item"><i class="fa-solid fa-network-wired"></i><span>Cisco Packet Tracer</span>
-                        </div>
-                        <div class="tech-item"><i class="fa-solid fa-palette"></i><span>Canva</span></div>
-                        <div class="tech-item"><i class="fa-solid fa-video"></i><span>CapCut</span></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Portfolio Section -->
-        <section id="portfolio" class="portfolio section">
-            <div class="container element-reveal">
-                <div class="section-title">
-                    <h2>My <span>Projects</span></h2>
-                    <div class="underline"></div>
-                </div>
-
-                <div class="portfolio-filters">
-                    <button class="filter-btn active" data-filter="All">All</button>
-                    <button class="filter-btn" data-filter="Web">Web</button>
-                    <button class="filter-btn" data-filter="Design">Design</button>
-                    <button class="filter-btn" data-filter="Poster">Poster</button>
-                </div>
-
-                <div class="portfolio-grid" id="portfolio-grid">
-                    <!-- Project cards will be injected here via JavaScript -->
-                    <div class="loading">Loading projects...</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact section">
-            <div class="container element-reveal">
-                <div class="section-title">
-                    <h2>Get In <span>Touch</span></h2>
-                    <div class="underline"></div>
-                </div>
-
-                <div class="contact-desc">
-                    <p>Punya tawaran project menarik atau hanya ingin menyapa? Silakan hubungi saya melalui platform di
-                        bawah ini.</p>
-                </div>
-
-                <div class="contact-grid">
-                    <a href="mailto:rizkipratamasunarko@gmail.com" class="contact-card bento-card">
-                        <div class="contact-icon">
-                            <i class="fa-regular fa-envelope"></i>
-                        </div>
-                        <h3>Email</h3>
-                        <p>rizkipratamasunarko@gmail.com</p>
-                    </a>
-
-                    <a href="https://github.com/rizkisunarko" target="_blank" class="contact-card bento-card">
-                        <div class="contact-icon">
-                            <i class="fa-brands fa-github"></i>
-                        </div>
-                        <h3>GitHub</h3>
-                        <p>github.com/rizkisunarko</p>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/rizkipratamasunarko" target="_blank"
-                        class="contact-card bento-card">
-                        <div class="contact-icon">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </div>
-                        <h3>LinkedIn</h3>
-                        <p>Koneksi Profesional</p>
-                    </a>
-
-                    <a href="https://wa.me/6285708350575" target="_blank" class="contact-card bento-card">
-                        <div class="contact-icon">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </div>
-                        <h3>WhatsApp</h3>
-                        <p>+62 857-0835-0575</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">Porto<span>Folio</span></div>
-                <p>&copy; <span id="year"></span> Rizki Pratama Sunarko. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Lightbox Modal (Full Image Viewer) -->
-    <div id="lightbox-modal" class="lightbox">
-        <span class="close-lightbox">&times;</span>
-        <a class="lightbox-prev">&#10094;</a>
-        <img class="lightbox-content" id="lightbox-img" alt="Full Image">
-        <a class="lightbox-next">&#10095;</a>
-        <div id="lightbox-caption"></div>
+      </div>
     </div>
+  </header>
 
-    <!-- Custom JS -->
-    <script src="script.js"></script>
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+      <div class="container hero-container element-reveal">
+        <div class="hero-content">
+          <div class="badge">HALO, SAYA</div>
+          <h1 class="name">Rizki Pratama Sunarko</h1>
+          <h3 class="role">Seorang <br><span class="typing-text">IT Support & Web Developer(Front End)</span>
+          </h3>
+
+          <div class="social-links">
+            <a href="#" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" target="_blank" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary">Lihat Project</a>
+            <a href="#contact" class="btn btn-outline">Kontak Saya <i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="hero-image bento-card">
+          <div class="image-wrapper">
+            <img src="images/profile.jpeg" alt="Foto Profil" id="profile-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container element-reveal">
+        <div class="section-title">
+          <h2>About <span>Me</span></h2>
+          <div class="underline"></div>
+        </div>
+
+        <div class="about-grid bento-card">
+          <div class="about-text">
+            <h3>Mengenal Saya Lebih Dekat</h3>
+            <p>
+              Saya adalah Mahasiswa Teknik Informatika Universitas Trunojoyo Madura yang berfokus pada
+              Front-end Web
+              Development dan IT Support. Memiliki pemahaman fundamental dalam Infrastruktur
+              Jaringan(Subnetting, IPv4) serta pengalaman praktis dalam troubleshooting hardware dan
+              software. Terampil dalam membangun antarmuka web yang responsif dan berkomitmen untuk
+              memberikan solusi teknologi yang efektif di lingkungan kerja profesional
+            </p>
+
+            <div class="personal-info">
+              <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Domisili:</strong>
+                  <span>Nganjuk, Indonesia</span>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>Status:</strong>
+                  <span>Mahasiswa Semester 4</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 30px;">
+              <a href="Purple and White Clean and Professional Resume (1).pdf" download class="btn btn-primary"
+                target="_blank">Unduh CV <i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+
+          <div class="about-lanyard-wrapper element-reveal drop-in">
+            <div class="lanyard-container">
+              <div class="lanyard-string"></div>
+              <div class="id-card photo-only">
+                <img src="images/profile2.jpeg" alt="ID Profile" class="id-photo">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools / Tech Stack Section -->
+    <section id="tools" class="tools section">
+      <div class="container element-reveal">
+        <div class="section-title">
+          <h2>Tech <span>Stack</span> & Tools</h2>
+          <div class="underline"></div>
+        </div>
+
+        <div class="tech-marquee-container bento-card">
+          <div class="tech-marquee">
+            <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+            <div class="tech-item"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+            <div class="tech-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+            <div class="tech-item"><i class="fa-solid fa-wind"></i><span>Tailwind</span></div>
+            <div class="tech-item"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
+            <div class="tech-item"><i class="fa-solid fa-network-wired"></i><span>Cisco Packet Tracer</span>
+            </div>
+            <div class="tech-item"><i class="fa-solid fa-palette"></i><span>Canva</span></div>
+            <div class="tech-item"><i class="fa-solid fa-video"></i><span>CapCut</span></div>
+            <!-- Duplikat untuk animasi seamlessly looping -->
+            <div class="tech-item"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+            <div class="tech-item"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+            <div class="tech-item"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+            <div class="tech-item"><i class="fa-solid fa-wind"></i><span>Tailwind</span></div>
+            <div class="tech-item"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
+            <div class="tech-item"><i class="fa-solid fa-network-wired"></i><span>Cisco Packet Tracer</span>
+            </div>
+            <div class="tech-item"><i class="fa-solid fa-palette"></i><span>Canva</span></div>
+            <div class="tech-item"><i class="fa-solid fa-video"></i><span>CapCut</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container element-reveal">
+        <div class="section-title">
+          <h2>My <span>Projects</span></h2>
+          <div class="underline"></div>
+        </div>
+
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="All">All</button>
+          <button class="filter-btn" data-filter="Web">Web</button>
+          <button class="filter-btn" data-filter="Design">Design</button>
+          <button class="filter-btn" data-filter="Poster">Poster</button>
+        </div>
+
+        <div class="portfolio-grid" id="portfolio-grid">
+          <!-- Project cards will be injected here via JavaScript -->
+          <div class="loading">Loading projects...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container element-reveal">
+        <div class="section-title">
+          <h2>Get In <span>Touch</span></h2>
+          <div class="underline"></div>
+        </div>
+
+        <div class="contact-desc">
+          <p>Punya tawaran project menarik atau hanya ingin menyapa? Silakan hubungi saya melalui platform di
+            bawah ini.</p>
+        </div>
+
+        <div class="contact-grid">
+          <a href="mailto:rizkipratamasunarko@gmail.com" class="contact-card bento-card">
+            <div class="contact-icon">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <h3>Email</h3>
+            <p>rizkipratamasunarko@gmail.com</p>
+          </a>
+
+          <a href="https://github.com/rizkisunarko" target="_blank" class="contact-card bento-card">
+            <div class="contact-icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>github.com/rizkisunarko</p>
+          </a>
+
+          <a href="https://www.linkedin.com/in/rizkipratamasunarko" target="_blank" class="contact-card bento-card">
+            <div class="contact-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <h3>LinkedIn</h3>
+            <p>Koneksi Profesional</p>
+          </a>
+
+          <a href="https://wa.me/6285708350575" target="_blank" class="contact-card bento-card">
+            <div class="contact-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <h3>WhatsApp</h3>
+            <p>+62 857-0835-0575</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Porto<span>Folio</span></div>
+        <p>&copy; <span id="year"></span> Rizki Pratama Sunarko. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal (Full Image Viewer) -->
+  <div id="lightbox-modal" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <a class="lightbox-prev">&#10094;</a>
+    <img class="lightbox-content" id="lightbox-img" alt="Full Image">
+    <a class="lightbox-next">&#10095;</a>
+    <div id="lightbox-caption"></div>
+  </div>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
 </body>
 
 </html>
